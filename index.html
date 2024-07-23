@@ -4,8 +4,23 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Countdown</title>
+		<link rel="stylesheet" href="style.css" />
 	</head>
 	<body>
-		Init for Age Countdown Project
+		<form id="numForm">
+			<label for="age">Age:</label>
+			<input type="number" id="age" name="age" required />
+
+			<label for="lifespan">Lifespan:</label>
+			<input type="number" id="lifespan" name="lifespan" required />
+
+			<button type="submit">Generate Table</button>
+		</form>
+
+		<div id="tableContainer">
+			<!-- Generated table will appear here -->
+		</div>
+
+		<script src="logic_test.js"></script>
 	</body>
 </html>
