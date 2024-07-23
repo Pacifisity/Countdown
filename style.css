@@ -1,15 +1,30 @@
+* {
+	color: white;
+	background-color: black;
+}
+
 table {
 	border-collapse: collapse;
 	width: 50%;
 	margin: 20px auto;
+
+	transition: width 0.3s ease-in-out;
 }
 
-/* table {
-} */
-
-th,
-td {
-	border: 1px solid black;
+td,
+th {
 	text-align: center;
 	padding: 10px;
+}
+
+.past {
+	border: 1px solid darkred;
+}
+
+.current {
+	border: 3px double blue;
+}
+
+.future {
+	border: 1px solid green;
 }
